@@ -84,4 +84,13 @@ extension Date {
         return !calendar.isDateInWeekend(self)
     }
     
+    /// SugarDaddy: Date string from date.
+    /// - Parameter format: Date format (default is "dd/MM/yyyy").
+    /// - Returns: date string.
+    /// 
+    func string(withFormat format: String = "dd/MM/yyyy HH:mm") -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = format
+        return dateFormatter.string(from: self)
+    }
 }
