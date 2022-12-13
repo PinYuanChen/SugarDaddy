@@ -17,6 +17,7 @@
 		CD66D8872941D2FD00E0ACA5 /* NSMutableAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD66D8862941D2FD00E0ACA5 /* NSMutableAttributedString+Extension.swift */; };
 		CDBC2ED32941962D00AE5F65 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC2ED22941962D00AE5F65 /* UIColor+Extension.swift */; };
 		CDBEAE5C2946FB8A00C2E885 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBEAE5B2946FB8A00C2E885 /* Date+Extension.swift */; };
+		CDBEAE6029481EBC00C2E885 /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBEAE5F29481EBC00C2E885 /* Optional+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CD66D8862941D2FD00E0ACA5 /* NSMutableAttributedString+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMutableAttributedString+Extension.swift"; sourceTree = "<group>"; };
 		CDBC2ED22941962D00AE5F65 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		CDBEAE5B2946FB8A00C2E885 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		CDBEAE5F29481EBC00C2E885 /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				CDBC2ED22941962D00AE5F65 /* UIColor+Extension.swift */,
 				CD66D8862941D2FD00E0ACA5 /* NSMutableAttributedString+Extension.swift */,
 				CDBEAE5B2946FB8A00C2E885 /* Date+Extension.swift */,
+				CDBEAE5F29481EBC00C2E885 /* Optional+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD2D5BDC294064D5006E7BAD /* ViewController.swift in Sources */,
+				CDBEAE6029481EBC00C2E885 /* Optional+Extension.swift in Sources */,
 				CD2D5BD8294064D5006E7BAD /* AppDelegate.swift in Sources */,
 				CD66D8872941D2FD00E0ACA5 /* NSMutableAttributedString+Extension.swift in Sources */,
 				CD2D5BDA294064D5006E7BAD /* SceneDelegate.swift in Sources */,
