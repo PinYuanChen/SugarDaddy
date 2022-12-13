@@ -4,7 +4,11 @@
 
 import Foundation
 
-/// Prepare class instance
+/// SugarDaddy:Prepare class instance
+///
+/// let view = UIView() --> {
+///     add your setup here
+/// }
 infix operator -->
 
 func --> <T>(object: T, closure: (T) -> Void) -> T {
@@ -12,7 +16,7 @@ func --> <T>(object: T, closure: (T) -> Void) -> T {
     return object
 }
 
-/// Setup properties via method chaining ( only available after Swift 5.1)
+/// SugarDaddy: Setup properties via method chaining ( only available after Swift 5.1)
 /// Either use 'Make' to wrap up property or use postfix operator
 @dynamicMemberLookup
 struct Make<T> {

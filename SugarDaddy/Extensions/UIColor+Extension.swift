@@ -5,6 +5,7 @@
 import UIKit
 
 extension UIColor {
+    /// SugarDaddy: Hex string to UIColor
     static func colorWithHex(hex: NSString, alpha: Float = 1) -> UIColor {
         var cString: String = hex.trimmingCharacters(in: NSCharacterSet.whitespacesAndNewlines).uppercased()
         
