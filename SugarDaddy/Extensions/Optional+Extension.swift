@@ -8,6 +8,20 @@ extension Optional {
     var isNil: Bool {
         self == nil
     }
+    
+    /// SugarDaddy: Unwrap and check predicate
+    ///
+    /// var str: String? = "text"
+    /// str.matching { $0.count < 2} -> nil
+    ///
+    func matching(_ predicate: (Wrapped) -> Bool) -> Wrapped? {
+        guard let value = self,
+              predicate(value)else {
+            return nil
+        }
+        
+        return value
+    }
 }
 
 /// SugarDaddy: Check if string is nil or empty
@@ -29,5 +43,12 @@ extension Optional where Wrapped == String {
 extension Optional where Wrapped == Int {
     var isNilOrZero: Bool {
         self == nil || self == 0
+    }
+}
+
+/// SugarDaddy: Check if collection is nil or empty
+extension Optional where Wrapped: Collection {
+    var isNilOrEmpty: Bool {
+        return self?.isEmpty ?? true
     }
 }
