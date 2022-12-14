@@ -18,6 +18,8 @@
 		CDBC2ED32941962D00AE5F65 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBC2ED22941962D00AE5F65 /* UIColor+Extension.swift */; };
 		CDBEAE5C2946FB8A00C2E885 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBEAE5B2946FB8A00C2E885 /* Date+Extension.swift */; };
 		CDBEAE6029481EBC00C2E885 /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBEAE5F29481EBC00C2E885 /* Optional+Extension.swift */; };
+		CDEF78A62949CFE100569652 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF78A52949CFE100569652 /* Data+Extension.swift */; };
+		CDEF78A82949D02E00569652 /* Codable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEF78A72949D02E00569652 /* Codable+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		CDBC2ED22941962D00AE5F65 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		CDBEAE5B2946FB8A00C2E885 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		CDBEAE5F29481EBC00C2E885 /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
+		CDEF78A52949CFE100569652 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		CDEF78A72949D02E00569652 /* Codable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				CD66D8862941D2FD00E0ACA5 /* NSMutableAttributedString+Extension.swift */,
 				CDBEAE5B2946FB8A00C2E885 /* Date+Extension.swift */,
 				CDBEAE5F29481EBC00C2E885 /* Optional+Extension.swift */,
+				CDEF78A52949CFE100569652 /* Data+Extension.swift */,
+				CDEF78A72949D02E00569652 /* Codable+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -177,6 +183,8 @@
 				CDBEAE5C2946FB8A00C2E885 /* Date+Extension.swift in Sources */,
 				CD2D5BEE2940653F006E7BAD /* PrepareClassInstance.swift in Sources */,
 				CDBC2ED32941962D00AE5F65 /* UIColor+Extension.swift in Sources */,
+				CDEF78A82949D02E00569652 /* Codable+Extension.swift in Sources */,
+				CDEF78A62949CFE100569652 /* Data+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
