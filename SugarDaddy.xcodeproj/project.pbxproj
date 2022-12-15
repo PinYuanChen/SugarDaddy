@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD22820F294AEBDF008903C9 /* Sequence+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD22820E294AEBDF008903C9 /* Sequence+Extension.swift */; };
 		CD2D5BD8294064D5006E7BAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D5BD7294064D5006E7BAD /* AppDelegate.swift */; };
 		CD2D5BDA294064D5006E7BAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D5BD9294064D5006E7BAD /* SceneDelegate.swift */; };
 		CD2D5BDC294064D5006E7BAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D5BDB294064D5006E7BAD /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD22820E294AEBDF008903C9 /* Sequence+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Extension.swift"; sourceTree = "<group>"; };
 		CD2D5BD4294064D5006E7BAD /* SugarDaddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugarDaddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2D5BD7294064D5006E7BAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD2D5BD9294064D5006E7BAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				CDBEAE5F29481EBC00C2E885 /* Optional+Extension.swift */,
 				CDEF78A52949CFE100569652 /* Data+Extension.swift */,
 				CDEF78A72949D02E00569652 /* Codable+Extension.swift */,
+				CD22820E294AEBDF008903C9 /* Sequence+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				CDBEAE5C2946FB8A00C2E885 /* Date+Extension.swift in Sources */,
 				CD2D5BEE2940653F006E7BAD /* PrepareClassInstance.swift in Sources */,
 				CDBC2ED32941962D00AE5F65 /* UIColor+Extension.swift in Sources */,
+				CD22820F294AEBDF008903C9 /* Sequence+Extension.swift in Sources */,
 				CDEF78A82949D02E00569652 /* Codable+Extension.swift in Sources */,
 				CDEF78A62949CFE100569652 /* Data+Extension.swift in Sources */,
 			);
